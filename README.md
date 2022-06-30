@@ -40,4 +40,22 @@ Named sessions can be created using command <br>
 | `prefix`+ `↓`| Moves to lower pane|
 
 
+### More about sessions
+Once we type command `$tmux` the session starts. We can then see green bar at the bottom. This bar indicates the active session, and that we are using Tmux. 
 
+
+To find active tmux sessions use command<br>
+```$tmux ls```
+
+If you want to start a attached session use command<br>
+```$tmux attach -t name-of-the-session```
+
+To kill a tmux session use command<br>
+```$tmux kill-session -t name-of-the-session```
+
+Finally to exit out of the session, simply type<br>
+```$exit```
+
+### Conclusion
+Tmux is an important tool that helps to use single terminal  by splitting windows and navigating through sessions.
+To explore more about tmux you can visit [official documentation](https://tmuxguide.readthedocs.io/en/latest/tmux/tmux.html).
