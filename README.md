@@ -15,3 +15,29 @@ As tmux sessions are presistent, programs running in Tmux will continue to run e
 #### On MacOS
 ```$ brew install tmux```
 
+### Session on tmux
+To start a sesson on tmux use command <br>
+```$ tmux```
+
+Once the session is started, status line at the bottom of the screen shows information about the current session.
+
+#### Named sessions
+Named sessions can be created using command <br>
+```$tmux new -s new-session-name```
+
+`ctrl` + `b` **is the prefix of tmux. All command begin with prefix by default**
+
+### Commands for pane
+| Command | Description |
+|---------|--------------|
+| `prefix`+ `?`| Shows list of all availabe commands|
+| `prefix`+ `c`| Creates a new window|
+| `prefix`+ `%`| Splits window vertically|
+| `prefix`+ `"`| Splits window horizontally|
+| `prefix`+ `→`| Moves to right pane|
+| `prefix`+ `←`| Moves to left pane|
+| `prefix`+ `↑`| Moves to upper pane|
+| `prefix`+ `↓`| Moves to lower pane|
+
+
+
